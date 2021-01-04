@@ -62,3 +62,9 @@
 # The following overrides are necessary because kubernetes does not support dep.
 # These are pulled in from the various requirements, namely client-go godeps.json and helm glide.lock
 # See https://github.com/kubernetes/client-go/blob/master/INSTALL.md#dep-not-supported-yet for more details
+
+# Compile everything to use the kubergrunt fork
+[[constraint]]
+  name = "github.com/gruntwork-io/kubergrunt"
+  version = "=0.5.17"
+  source = "github.com/elyalvarado/kubergrunt"
