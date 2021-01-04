@@ -110,7 +110,7 @@ jobs:
       # Build and upload binaries for kubergrunt
       - run:
           command: |
-            cd ~/.go_workspace/src/github.com/gruntwork-io/kubergrunt
+            cd ~/.go_workspace/src/github.com/elyalvarado/kubergrunt
             build-go-binaries \
               --circle-ci-2 \
               --app-name kubergrunt \
