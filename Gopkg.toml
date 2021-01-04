@@ -66,5 +66,5 @@
 # Compile everything to use the kubergrunt fork
 [[constraint]]
   name = "github.com/gruntwork-io/kubergrunt"
-  version = "=0.5.17"
+  version = "=0.5.18"
   source = "github.com/elyalvarado/kubergrunt"
