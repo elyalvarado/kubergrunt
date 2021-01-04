@@ -139,7 +139,7 @@ workflows:
 
     - deploy:
         requires:
-          - kubergrunt_tests
+          - setup
         filters:
           tags:
             only: /^v.*/
